@@ -8,6 +8,7 @@ body {
   margin: 0;
   -webkit-overflow-scrolling: touch;
   overflow-y: scroll;
+  background-color: #f2f2f2;
 }
 header {
   position: fixed;
@@ -18,9 +19,10 @@ header {
   flex-wrap: wrap;
   width: 100%;
   height: 80px;
-
   box-shadow: 0 0px 8px rgba(212, 212, 212, 0.4);
+  background-color: #ffffff;
 }
+/* Logo Of header */
 header .logo {
   display: flex;
   flex: 2;
@@ -64,6 +66,7 @@ header .search-bar .search {
   height: 2.9rem;
   border-radius: 43rem;
 }
+/* Design Search bar */
 header .search-bar .search .search__input {
   display: flex;
   flex: 1;
@@ -98,6 +101,7 @@ header .search-bar .search .search__input {
   border-top-left-radius: 2rem;
   border-bottom-left-radius: 2rem;
 }
+/* Design Search Button */
 header .search-bar .search .search__btn {
   height: 49px;
   margin-left: -17px;
@@ -123,7 +127,7 @@ header .search-bar .search .search__btn {
 /* Right Header button */
 
 .right-icons {
-  margin: 0.8rem 3.5rem 1rem 0rem;
+  margin: 0.8rem 0.5rem 1rem 0rem;
 }
 
 .dropbtn1 {
@@ -163,8 +167,6 @@ header .search-bar .search .search__btn {
   margin: 35px 7px 0px 4px;
 }
 
-.dropdown-content:after {
-}
 
 .dropdown-content a {
   display: block;
@@ -201,7 +203,6 @@ header .search-bar .search .search__btn {
   position: relative;
   display: inline-block;
 }
-
 .dropdown-content {
   display: none;
   position: absolute;
@@ -211,7 +212,6 @@ header .search-bar .search .search__btn {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   z-index: 1;
 }
-
 .dropdown-profile > .dropdown-content {
   height: 45rem;
   min-width: 20.5rem;
@@ -389,3 +389,8 @@ input[type="checkbox"] {
   font-size: 1rem;
   padding: 0px 7px 6px 57px;
 }
+
+
+/* Starting Navbar */
+
+ 
