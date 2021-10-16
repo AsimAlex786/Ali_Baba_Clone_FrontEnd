@@ -5,66 +5,135 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="asset/css/header.css" />
-    <link rel="stylesheet" href="/asset/css/navbar.css">
-    <script  src="https://kit.fontawesome.com/6a8f2b7ab2.js" crossorigin="anonymous" ></script>
+    <link rel="stylesheet" href="/asset/css/navbar.css" />
+    <link rel="stylesheet" href="/asset/css/cssMedia/headerQ.css" />
+    <script src="https://kit.fontawesome.com/6a8f2b7ab2.js" crossorigin="anonymous"></script>
     <title>alibaba</title>
   </head>
   <body>
     <header>
-	    <div class="logo"><a href="index.html"><img src="asset/images/logo.png" alt="AliBaba Logo" class="logo"/></a></div>
-	  <div class="search-bar">
-		
-		<form class="search">
-	           <button class="product__btn">Products</button>
-		  <input type="search" class="search__input" name="search" placeholder="What are you looking for"  >
-		  <div class="bg-logo"><img src="/asset/images/icons/search.png" alt="" style="width: 1.3rem; height: 1.3rem;"></div>
-		  <button class="search__btn"> Search</button>
-		
-		</form>
-	
-	      </div> 
-	      <!-- working on right button of header -->
-	      <div class="dropdown dropdown-profile ">
-		<button class="dropbtn1"><img src="/asset/images/icons/profile.png" alt="Profile" width="37rem" height="37rem"></button>
-		<div class="dropdown-content">
-			<h4>Get started Now</h4>
-		  <a href="#">Link 1</a>
-		  <a href="#">Link 2</a>
-		  <a href="#">Link 3</a>
-		</div>
-	       </div>
-	      <div class="right-icons">
-		
-		
-		       <div class="dropdown">
-			<button class="dropbtn2"><img src="/asset/images/icons/message.png" alt="Profile" width="40rem" height="34rem"></button>
-			
-			<div class="dropdown-content">
-			  <a href="#">Link 1</a>
-			  <a href="#">Link 2</a>
-			  <a href="#">Link 3</a>
-			</div>
-		       </div><div class="dropdown">
-			<button class="dropbtn3"><img src="/asset/images/icons/order.png" alt="Profile" width="34rem" height="34rem"></button>
-			
-			<div class="dropdown-content">
-			  <a href="#">Link 1</a>
-			  <a href="#">Link 2</a>
-			  <a href="#">Link 3</a>
-			</div>
-		       </div><div class="dropdown">
-			<button class="dropbtn4"><img src="/asset/images/icons/cart.png" alt="Profile" width="34rem" height="34rem"></button>
-			
-			<div class="dropdown-content">
-			  <a href="#">Link 1</a>
-			  <a href="#">Link 2</a>
-			  <a href="#">Link 3</a>
-			</div>
-		       </div>
-	
-	      </div> 
+      <!-- Logo -->
+      <div class="logo">
+        <a href="index.html"><img src="asset/images/logo.png" alt="AliBaba Logo" class="logo" /></a>
+      </div>
+      <!-- Search Bar -->
+      <div class="search-bar">
+        <form class="search">
+          <button class="product__btn">Products</button>
+          <input
+            type="search"
+            class="search__input"
+            name="search"
+            placeholder="What are you looking for"
+          />
+          <div class="bg-logo">
+            <img src="/asset/images/icons/search.png" alt="" style="width: 1.3rem; height: 1.3rem"/>
+          </div>
+          <button class="search__btn">Search</button>
+        </form>
+      </div>
 
+      <!-- working on right button of header -->
+      
+      <div class="dropdown dropdown-profile">
+        <!-- sign-in-btn Button -->
+        <button class="dropbtn1">
+          <img
+            src="/asset/images/icons/profile.png"
+            alt="Profile"
+            width="50rem"
+            height="50rem"
+          />
+        </button>
+        <div class="dropdown-content dropdown-profile-top-rad">
+          <p style="margin-left: 20px">Get started now</p>
+          <div class="btn1-content">
+            <a href="#" id="sign-in-btn">Sign In</a>
+            <p>or</p>
+            <a href="#">Join Free</a>
+            <p>Continue with</p>
+            <div class="social-icons">
+              <a href="#" class="fa fa-facebook"></a>
+              <a href="#" class="fa fa-google"></a>
+              <a href="#" class="fa fa-linkedin"></a>
+              <a href="#" class="fa fa-twitter"></a>
+            </div>
+            <div class="chk-box">
+              <input type="checkbox" name="checkbox" id="checkbox" />I agree to
+              <br />
+              <label id="chk-boc-content">Free MemberShip Agreeement</label>
+              <br />
+              <input type="checkbox" name="checkbox" id="checkbox" />I agree to
+              <br />
+              <label id="chk-boc-content">Receive MArkeeting Material</label>
+            </div>
+            <div class="signin-alibaba-content">
+              <a href="#" id="signin-alibaba-content1">My AliBaba</a>
+              <a href="#" id="signin-alibaba-content">Manage RFQ</a>
+              <a href="#" id="signin-alibaba-content">My Favpourits</a>
+              <a href="#" id="signin-alibaba-content">My Account</a>
+              <hr />
+              <a href="#" id="signin-alibaba-content">JSupplier Membership</a>
+              <a href="#" id="signin-alibaba-content"
+                >Get Multiple Quates in 24hoyrs!</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="right-icons">
+        <!-- messages Button -->
+        <div class="dropdown dropdown-content-2">
+          <button class="dropbtn2">
+            <img src="/asset/images/icons/message.png" alt="Profile" width="40rem" height="40rem"/>
+          </button>
+
+          <div class="dropdown-content  ">
+            <div class="msg-box">
+          <Label ><strong>Unread message reminder</strong> </Label> 
+           <p style="text-align: left;">We will remind you here when there is new
+            message. Please log in to view.</p> 
+            <button id="sign-in-btn2">Sign In</button>
+         <p style="text-align: left; font-size: 0.8rem;">New user? Please register  and start your business!</p>   
+        </div>
+        </div>
+        </div>
+
+
+        <div class="dropdown dropdown-content-3 ">
+          <button class="dropbtn3">
+            <img src="/asset/images/icons/order.png" alt="Profile" width="35rem" height="35rem"/>
+          </button>
+
+          <div class="dropdown-content ">
+       <div class="order-content">  
+      <p style="text-align: left;">Trade Assurance  Learn more</p> 
+      <p style="text-align: left;">protects your Alibaba.com orders
+       Trade Assurance ensures：</p>
+ <ul>
+   <li>Product quality</li>
+   <li>On-time shipment</li>
+ </ul>
+</div> 
+<a href="#" id="sign-in-btn-3">Order with Trade Assurance</a>
+          </div>
+        </div>
+
+
+        <div class="dropdown dropdown-content-4">
+          <button class="dropbtn4">
+            <img src="/asset/images/icons/cart.png" alt="Profile" width="35rem" height="35rem"/>
+          </button>
+         
+
+          <div class="dropdown-content">
+            <p id="cart-content">Yor are not Login.please Login</p>
+            
+          </div>
+        </div>
+      </div>
     </header>
-    
-	 </body>
+    <nav></nav>
+  </body>
 </html>
