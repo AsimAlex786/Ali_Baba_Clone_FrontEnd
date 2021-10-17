@@ -19,12 +19,6 @@
 }
 .sidenav button:hover{
          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+         color: #ff6a00;
 
-}
-.item-grid-2{
-         background: url(/asset/images/products/slider.PNG);
-         background-repeat: no-repeat;
-         background-size: cover;
-         background-position: center;
-         height: 16rem;
 }
